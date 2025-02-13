@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" type="x-icon" href="./images/movie logo.png" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flix</title>
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- OWL CAROUSEL -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+    />
+    <!-- BOX ICONS -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- APP CSS -->
+    <link rel="stylesheet" href="grid.css" />
+    <link rel="stylesheet" href="app.css" />
+  </head>
+
+  <body>
+    <!-- NAV -->
+    <div class="nav-wrapper">
+      <div class="container">
+        <div class="nav">
+          <a href="#" class="logo">
+            <i class="bx bx-movie-play bx-tada main-color"></i>B<span
+              class="main-color"
+              >OO</span
+            >K YOUR TICKET NOW.
+          </a>
+          <ul class="nav-menu" id="nav-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Genre</a></li>
+            <li><a href="#">Movies</a></li>
+            <li><a href="#">Series</a></li>
+            <li><a href="#">About</a></li>
+            <li>
+              <a href="#" class="btn btn-hover">
+                <span>SHOWING..</span>
+              </a>
+            </li>
+          </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--This code creates a responsive navigation bar for a movie booking website,
+     featuring a logo, menu links (Home, Genre, Movies, Series, About), and a "SHOWING.." button.
+      Wrapped in a <div class="nav-wrapper"> and <div class="container">,
+         it ensures responsiveness, likely styled with CSS and enhanced with JavaScript.-->
+    <!-- END NAV -->
+
+    <!-- HERO SECTION -->
+    <div class="hero-section">
+      <!-- HERO SLIDE -->
+      <div class="hero-slide">
+        <div class="owl-carousel carousel-nav-center" id="hero-carousel">
+          <!-- SLIDE ITEM -->
+           
+          <div class="hero-slide-item">
+            <img src="https://resizing.flixster.com/AoMOzLWwkr0nq8Sah1MFOohq6mk=/620x336/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p12239269_i_h10_aa.jpg" alt="" />
+            <div class="overlay"></div>
+            <div class="hero-slide-item-content">
+              <div class="item-content-wraper">
+                <div class="item-content-title top-down">HENERAL LUNA</div>
+                <div class="movie-infos top-down delay-2">
+                  <div class="movie-info">
+                    <i class="bx bxs-star"></i>
+                    <span>9.5</span>
+                  </div>
+                  <div class="movie-info">
+                    <i class="bx bxs-time"></i>
+                    <span>120 mins</span>
+                  </div>
+                  <div class="movie-info">
+                    <span>HD</span>
+                  </div>
+                  <div class="movie-info">
+                    <span>16+</span>
+                  </div>
+                </div>
+                <div class="item-content-description top-down delay-4">
+                  General Antonio Luna during the Philippine-American War.
+                   Known for his bravery, intelligence, and fiery temper,
+                    Luna fights for the country's independence but faces betrayal from within his own ranks. 
+                   The film highlights themes of patriotism, leadership struggles,
+                   and internal conflicts that led to his tragic assassination.
+
+                </div>
+                <div class="item-action top-down delay-6">
+                  <a href="#" class="btn btn-hover">
+                    <i class="bx bxs-right-arrow"></i>
+                    <span>TRAILER</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- END SLIDE ITEM -->
+
+          <!-- SLIDE ITEM -->
+          <div class="hero-slide-item">
+            <img src="https://www.heavenofhorror.com/wp-content/uploads/2024/10/Outside-2024-Review-Netflix-Zombie-Movie.jpg" alt="" />
+            <div class="overlay"></div>
+            <div class="hero-slide-item-content">
+              <div class="item-content-wraper">
+                <div class="item-content-title top-down">OUTSIDE</div>
+                <div class="movie-infos top-down delay-2">
+                  <div class="movie-info">
+                    <i class="bx bxs-star"></i>
+                    <span>9.5</span>
+                  </div>
+                  <div class="movie-info">
+                    <i class="bx bxs-time"></i>
+                    <span>120 mins</span>
+                  </div>
+                  <div class="movie-info">
+                    <span>HD</span>
+                  </div>
+                  <div class="movie-info">
+                    <span>16+</span>
+                  </div>
+                </div>
+                <div class="item-content-description top-down delay-4">
+                  A family flees to an isolated farm to get away from a zombie outbreak,
+                  but old secrets eventually surface and become a greater threat.
+                </div>
+                <div class="item-action top-down delay-6">
+                  <a href="#" class="btn btn-hover">
+                    <i class="bx bxs-right-arrow"></i>
+                    <span>TRAILER</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- END SLIDE ITEM -->
+          <!-- SLIDE ITEM -->
+          <div class="hero-slide-item">
+            <img src="https://itsastampede.com/wp-content/uploads/2024/03/spaceman-2024-4.jpg"alt="" />
+            <div class="overlay"></div>
+            <div class="hero-slide-item-content">
+              <div class="item-content-wraper">
+                <div class="item-content-title top-down">SPACEMAN</div>
+                <div class="movie-infos top-down delay-2">
+                  <div class="movie-info">
+                    <i class="bx bxs-star"></i>
+                    <span>9.5</span>
+                  </div>
+                  <div class="movie-info">
+                    <i class="bx bxs-time"></i>
+                    <span>120 mins</span>
+                  </div>
+                  <div class="movie-info">
+                    <span>HD</span>
+                  </div>
+                  <div class="movie-info">
+                    <span>16+</span>
+                  </div>
+                </div>
+                <div class="item-content-description top-down delay-4">
+                  Six months into a solo mission,
+                   a lonely astronaut confronts the cracks in his marriage with help from a mysterious creature he
+                    discovers on his ship.
+                </div>
+                <div class="item-action top-down delay-6">
+                  <a href="#" class="btn btn-hover">
+                    <i class="bx bxs-right-arrow"></i>
+                    <span>TRAILER</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- END SLIDE ITEM -->
+        </div>
+      </div>
+      <!-- END HERO SLIDE -->
+      <!-- TOP MOVIES SLIDE -->
+      <div class="section">
+        <div class="container">
+          <div class="section-header">BOOk NOW...</div>
+          <div class="movies-slide carousel-nav-center owl-carousel">
+          <!-- MOVIE ITEM -->
+          <div class="movie-item">
+            <img src="https://lumiere-a.akamaihd.net/v1/images/image_8c4aa72b.jpeg?region=0%2C0%2C800%2C1200" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Deadpool</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+              <a href="booking.html" class="book-button">Book</a>
+            </div>
+          </div>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+         
+          <div class="movie-item">
+            <img src="https://static.wikia.nocookie.net/anime-and-kpop-fans-only/images/7/7f/OSeOosH.jpg/revision/latest?cb=20210810122109" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Weathering with you</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+              <a href="booking.html" class="book-button">Book</a>
+            </div>
+          </div>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <div class="movie-item">
+            <img src="https://m.media-amazon.com/images/M/MV5BZTM5ZDhiODctNjQ1Zi00Y2IwLThjZjQtOTQ0N2QzZDU5NDg2XkEyXkFqcGc@._V1_.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">SPIDER-MAN
+                 FAR FROM HOME</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+              <!-- Book Button -->
+              <a href="booking.html" class="book-button">Book</a>
+            </div>
+          </div>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <div class="movie-item">
+            <img src="https://m.media-amazon.com/images/M/MV5BY2Q2ZmI5ZjUtNWVhMC00YzJkLTlmYjMtY2RmZDhkNzEzYjZhXkEyXkFqcGc@._V1_QL75_UX190_CR0,0,190,281_.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">John Wick 4</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+              <a href="booking.html" class="book-button">Book</a>
+            </div>
+          </div>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <div class="movie-item">
+            <img src="https://m.media-amazon.com/images/M/MV5BMDVhMjk2OGUtYzYxNS00NzBjLTk5YTItYzI0ZjgzNjY1NmI0XkEyXkFqcGc@._V1_.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">GODZILLA</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+              <a href="booking.html" class="book-button">Book</a>
+            </div>
+          </div>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <div class="movie-item">
+            <img src="https://m.media-amazon.com/images/M/MV5BYmMyMjc0OTYtMjRiNi00MjkyLTlkOTAtOGFjMGZjNjczNWQyXkEyXkFqcGc@._V1_QL75_UX190_CR0,2,190,281_.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">DEADZONE</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+              <a href="booking.html" class="book-button">Book</a>
+            </div>
+          </div> 
+        </div> 
+      </div>
+    </div>
+    <!-- LATEST MOVIES SECTION -->
+    <div class="section">
+      <div class="container">
+        <div class="section-header">Coming soon...</div>
+        <div class="movies-slide carousel-nav-center owl-carousel">
+          <!-- MOVIE ITEM -->
+          <a href="#" class="movie-item">
+            <img src="https://m.media-amazon.com/images/M/MV5BNWRlMzA2MjktZjY0Zi00OGIyLWExYTMtODRiZjZmODI2YWJjXkEyXkFqcGc@._V1_.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">SUNRAY</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+                
+              </div>
+              
+            </div>
+            
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a href="#" class="movie-item">
+            <img src="https://m.media-amazon.com/images/M/MV5BZTVkZWY5MmItYjY3OS00OWY3LTg2NWEtOWE1NmQ4NGMwZGNlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Transformer</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+              
+            </div>
+          
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a href="#" class="movie-item">
+            <img src="https://m.media-amazon.com/images/M/MV5BMTY2ZmY3MGEtMjkyNi00OWU4LTk3YWItZmRkNTk1OTA4YmE1XkEyXkFqcGc@._V1_.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">EL47</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+              
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a href="#" class="movie-item">
+            <img src="https://mountvicflicks.com.au/site/assets/files/14051/filmposter_packshot.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">FLOW</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+             
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a href="#" class="movie-item">
+            <img src="https://m.media-amazon.com/images/M/MV5BYTIwYzk3YmQtZmMwNS00ZDAwLTk5Y2MtOTEwODFlZmExMzliXkEyXkFqcGc@._V1_.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">SOLO LEVELING</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+             
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a href="#" class="movie-item">
+            <img src="https://upload.wikimedia.org/wikipedia/en/7/76/Wolf_Man_2025_poster.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">WOLFMAN</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+             
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a href="#" class="movie-item">
+            <img src="https://m.media-amazon.com/images/M/MV5BZWY2ZDIyZjYtZjcxOS00NDQzLWFjYmEtMGM0NTc3MTA3OGNiXkEyXkFqcGc@._V1_.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">2073</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+              
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+        </div>
+      </div>
+    </div>
+    <!-- END LATEST MOVIES SECTION -->
+
+     
+
+    <!-- LATEST SERIES SECTION -->
+    <div class="section">
+        <div class="container">
+          <div class="section-header">Coming Soon</div>
+          <div class="movies-slide carousel-nav-center owl-carousel">
+            <!-- MOVIE ITEM -->
+            <a href="#" class="movie-item">
+              <img src="https://m.media-amazon.com/images/M/MV5BYmJiNjAyZmMtOTkyOS00ZmI0LWI0MWMtYmQ0ZDQzYWU1NDVlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Supergirl" />
+              <div class="movie-item-content">
+                <div class="movie-item-title">I'M TIM</div>
+                <div class="movie-infos">
+                  <div class="movie-info">
+                    <i class="bx bxs-star"></i>
+                    <span>9.5</span>
+                  </div>
+                  <div class="movie-info">
+                    <i class="bx bxs-time"></i>
+                    <span>120 mins</span>
+                  </div>
+                  <div class="movie-info">
+                    <span>HD</span>
+                  </div>
+                  <div class="movie-info">
+                    <span>16+</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a href="#" class="movie-item">
+            <img src="https://m.media-amazon.com/images/S/pv-target-images/227cd2e94c67143f3a4fbe8ae72691df753453f9202a9406da92e2c4bebc6b69.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">APOCALYPSE Z</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+              
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a href="#" class="movie-item">
+            <img src="https://s3.amazonaws.com/nightjarprod/content/uploads/sites/261/2024/11/03154430/cdqLnri3NEGcmfnqwk2TSIYtddg-683x1024.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">RED ONE</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+             
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a href="#" class="movie-item">
+            <img src="https://tahoearthauscinema.com/wp-content/uploads/2024/10/unnamed-file.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">WILD ROBOT</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+             
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a href="#" class="movie-item">
+            <img src="https://m.media-amazon.com/images/M/MV5BZDdjMTY0ZGItMmYwMi00ODQ3LWE5NzEtZTE1NjE2ZjMyNDFmXkEyXkFqcGc@._V1_.jpg" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">KUNG FU
+                PANDA 4
+              </div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+             
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a href="#" class="movie-item">
+            <img src="https://images.store.sky.com/api/img/asset/en/66D8BB8A-E4E8-4422-9242-603110084545_87D55D85-1ABA-43CE-AB70-457572A3795A_2024-11-21-T9-59-30.jpg?s=260x371" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">
+                APARMENT 7A
+              </div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+          <!-- MOVIE ITEM -->
+          <a href="#" class="movie-item">
+            <img src="./images/series/wanda.png" alt="" />
+            <div class="movie-item-content">
+              <div class="movie-item-title">Wanda Vision</div>
+              <div class="movie-infos">
+                <div class="movie-info">
+                  <i class="bx bxs-star"></i>
+                  <span>9.5</span>
+                </div>
+                <div class="movie-info">
+                  <i class="bx bxs-time"></i>
+                  <span>120 mins</span>
+                </div>
+                <div class="movie-info">
+                  <span>HD</span>
+                </div>
+                <div class="movie-info">
+                  <span>16+</span>
+                </div>
+              </div>
+             
+            </div>
+          </a>
+          <!-- END MOVIE ITEM -->
+        </div>
+      </div>
+    </div>
+
+    <!-- END LATEST SERIES SECTION -->
+     
+     <!--This code defines a single item in a movie carousel or hero section, 
+     showcasing the film Heneral Luna. It includes an image of the movie poster with an overlay for visual effect,
+     and various details such as the movie title, rating (9.5), 
+     duration (120 minutes), quality (HD), and age rating (16+).
+      A brief placeholder description of the movie follows, with a "Watch now" button at the bottom, designed to trigger an 
+      action when clicked. 
+      CSS classes like top-down and delay-2 suggest the use of animations or transitions
+       to enhance the presentation.-->
+
+    
+    <!-- SPECIAL MOVIE SECTION -->
+    <div class="section">
+      <div class="hero-slide-item">
+        <img src="./images/transformer-banner.jpg" alt="" />
+        <div class="overlay"></div>
+        <div class="hero-slide-item-content">
+          <div class="item-content-wraper">
+            <div class="item-content-title">Transformers</div>
+            <div class="movie-infos">
+              <div class="movie-info">
+                <i class="bx bxs-star"></i>
+                <span>9.5</span>
+              </div>
+              <div class="movie-info">
+                <i class="bx bxs-time"></i>
+                <span>120 mins</span>
+              </div>
+              <div class="movie-info">
+                <span>HD</span>
+              </div>
+              <div class="movie-info">
+                <span>16+</span>
+              </div>
+            </div>
+            <div class="item-content-description">
+                Transformers is a sci-fi franchise centered around the battle between two factions of sentient robots:
+                 the heroic Autobots and the villainous Decepticons, both from the planet Cybertron.
+                 They can transform into vehicles, weapons, and other
+                 objects to disguise themselves and gain tactical advantages
+            </div>
+            <div class="item-action">
+              <a href="#" class="btn btn-hover">
+                <i class="bx bxs-right-arrow"></i>
+                <span>trailer</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END SPECIAL MOVIE SECTION -->
+     
+<!--This code snippet represents a section in a movie showcase layout,
+ highlighting the movie Transformers. The section includes a hero image (the movie's banner),
+  with an overlay effect to darken the background. The content displays the movie's title, rating (9.5), 
+  duration (120 minutes), HD quality, and age rating (16+). A brief movie description is provided,
+   summarizing the core concept of the Transformers franchise,
+    which focuses on the battle between Autobots and Decepticons,
+     sentient robots from the planet Cybertron. Lastly, there’s a "trailer" button that could link to the movie's trailer,
+      complete with an animated icon for interactive appeal.-->
+
+    <!-- PRICING SECTION -->
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Movie Locations</title>
+        <link rel="stylesheet" href="styles.css" />
+        <!-- External CSS -->
+      </head>
+      <body>
+        <div class="section">
+          <div class="container">
+            <div class="map-header" style="text-align: center;">
+              <h4><span class="main-color" style="font-weight: bold;">LOCATION OF OUR BRANCHES</span></h4>
+            </div>
+            <div class="map-list">
+              <div class="row">
+                <!-- First Map -->
+                <div class="col-4 col-md-12 col-sm-12">
+                  <div class="map-box">
+                    <div class="map-title">SM CITY TAYTAY</div>
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15446.383292908788!2d121.1214503769066!3d14.565090645315383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c712fb4b2a49%3A0xdebea7ccd8c3741b!2sSM%20City%20Taytay!5e0!3m2!1sen!2sph!4v1739327927781!5m2!1sen!2sph"
+                      width="100%"
+                      height="300"
+                      style="border: 0"
+                      allowfullscreen=""
+                      loading="lazy"
+                    >
+                    </iframe>
+                  </div>
+                </div>
+                <!-- Second Map -->
+                <div class="col-4 col-md-12 col-sm-12">
+                  <div class="map-box">
+                    <div class="map-title">AYALA FELIZ PASIG</div>
+                    <iframe
+                      src= "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.636035185299!2d121.0906859736016!3d14.619797876609386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b83c696bf5c3%3A0x4413a65835ae270e!2sAyala%20Malls%20Feliz!5e0!3m2!1sen!2sph!4v1739328238265!5m2!1sen!2sph"
+                      
+                      width="100%"
+                      height="300"
+                      style="border: 0"
+                      allowfullscreen=""
+                      loading="lazy"
+                    >
+                    </iframe>
+                  </div>
+                </div>
+                <!-- Third Map -->
+                <div class="col-4 col-md-12 col-sm-12">
+                  <div class="map-box">
+                    <div class="map-title">SM CITY SAN MATEO</div>
+                    <iframe
+                      src= "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3859.5736258895936!2d121.11140077360294!3d14.680121875127783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397ba2f58c3cadb%3A0xe0f021c8dd36aead!2sSM%20City%20San%20Mateo!5e0!3m2!1sen!2sph!4v1739329124281!5m2!1sen!2sph" 
+                      width="100%"
+                      height="300"
+                      style="border: 0"
+                      allowfullscreen=""
+                      loading="lazy"
+                    >
+                    </iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </body>
+    </html>
+
+    <!-- END PRICING SECTION -->
+
+    <!-- FOOTER SECTION -->
+    <footer class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-4 col-md-6 col-sm-12">
+            <div class="content">
+              <a href="#" class="logo">
+                <i class="bx bx-movie-play bx-tada main-color"></i>B<span
+                  class="main-color"
+                  >OO</span
+                >K NOW
+              </a>
+              <p>
+                Movie night, made easy. Book your tickets online and enjoy a seamless movie-going experience.
+                 Choose your seats, select your snacks, and avoid the box office rush. 
+                 Your perfect movie night awaits!
+              </p>
+              <div class="social-list">
+                <a href="#" class="social-item">
+                  <i class="bx bxl-facebook"></i>
+                </a>
+                <a href="#" class="social-item">
+                  <i class="bx bxl-twitter"></i>
+                </a>
+                <a href="#" class="social-item">
+                  <i class="bx bxl-instagram"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-8 col-md-6 col-sm-12">
+            <div class="row">
+              <div class="col-3 col-md-6 col-sm-6">
+                <div class="content">
+                  <p><b>Flix</b></p>
+                  <ul class="footer-menu">
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">My profile</a></li>
+                    <li><a href="#">booking plans</a></li>
+                    <li><a href="#">Contacts</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-3 col-md-6 col-sm-6">
+                <div class="content">
+                  <p><b>Browse</b></p>
+                  <ul class="footer-menu">
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">My profile</a></li>
+                    <li><a href="#">booking plans</a></li>
+                    <li><a href="#">Contacts</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-3 col-md-6 col-sm-6">
+                <div class="content">
+                  <p><b>Help</b></p>
+                  <ul class="footer-menu">
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">My profile</a></li>
+                    <li><a href="#">booking plans</a></li>
+                    <li><a href="#">Contacts</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-3 col-md-6 col-sm-6">
+                <div class="content">
+                  <p><b>Download app</b></p>
+                  <ul class="footer-menu">
+                    <li>
+                      <a href="#">
+                        <img src="./images/google-play.png" alt="" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <img src="./images/app-store.png" alt="" />
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- END FOOTER SECTION -->
+
+     <!-- section displaying the locations of a business’s branches using embedded Google Maps,
+      followed by a footer with company details, navigation links, and social media icons.
+       The map section features three locations—SM City Taytay, Ayala Malls Feliz (Marikina), and SM City San Mateo—each inside a responsive <div> 
+        with a title and an <iframe> embedding the corresponding Google Maps location. The footer includes the company logo,
+           a brief placeholder description, social media icons (Facebook, Twitter, Instagram), 
+           and navigation links categorized under Flix, Browse, Help, and Download App, with buttons for the Play Store and App Store. The layout utilizes Bootstrap-like grid classes (col-4, col-md-6, etc.) for responsiveness, ensuring a structured and mobile-friendly design for a movie booking website-->
+
+    <!-- COPYRIGHT SECTION -->
+    <div class="api project">2024-2025</div>
+    <!-- END COPYRIGHT SECTION -->
+
+    <!-- SCRIPT -->
+    <!-- JQUERY -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <!-- OWL CAROUSEL -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+    ></script>
+    <!-- APP SCRIPT -->
+    <script src="app.js"></script>
+  </body>
+</html>
+<!--This code snippet includes three JavaScript files to enhance the functionality of the webpage.
+It first loads jQuery (v3.6.0) from a CDN,
+ which provides essential JavaScript functionalities like event handling and animations. Then,
+  it includes Owl Carousel 2 (v2.3.4), a jQuery-based plugin used for creating responsive and touch-friendly carousels.
+  Finally, it loads a local script file, app.js,
+  which likely contains custom JavaScript code for the webpage’s interactive features. 
+  These scripts work together to enhance user experience by enabling dynamic elements like sliders and other interactive components.-->
